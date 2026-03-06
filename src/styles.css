@@ -1,0 +1,5 @@
+body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial; padding:12px}
+.app header{display:flex;justify-content:space-between;align-items:center}
+.card{border:1px solid #ddd;padding:12px;border-radius:8px;margin:8px 0}
+.row{display:flex;gap:8px;align-items:center}
+button{padding:8px 12px;border-radius:6px}
