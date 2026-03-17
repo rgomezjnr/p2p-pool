@@ -1,3 +1,7 @@
+// Polyfill Buffer for libraries that expect Node globals (e.g. bip39)
+import { Buffer } from 'buffer'
+if (!globalThis.Buffer) (globalThis as any).Buffer = Buffer
+
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'

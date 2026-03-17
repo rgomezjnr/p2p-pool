@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import { createSeed, seedToKeypair } from '../utils/keys'
 import { saveProfile, Profile } from '../utils/storage'
 import AvatarPicker from './AvatarPicker'
